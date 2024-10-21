@@ -1,0 +1,8 @@
+session used to handle the token through server and not pass it to the front right now.
+
+req.session.token : includes the token that been generated using JWT , then the authorize function gonna
+check and verfiy that token using JWT if true lets store the user._id in the req.user that been handled by session
+so the authorization functionality works as expected: only the coach that signed in can CRUD only his courses.
+
+Haidr Ghanem
+>> npm run dev
